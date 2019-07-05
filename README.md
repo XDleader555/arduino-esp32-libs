@@ -7,6 +7,8 @@ both the esp-idf and build directory.
 # Prerequisites
 Follow the [official instructions to install the ESP-IDF Development Environment.](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/#setting-up-development-environment)
 
+Install the appropriate [arduino-esp32 release](https://github.com/espressif/arduino-esp32/releases) (cloned source is v1.0.3-rc1)
+
 Checkout the appropriate commit:
 ESP-IDF: 977854975
 
