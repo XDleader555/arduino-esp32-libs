@@ -7,6 +7,9 @@ both the esp-idf and build directory.
 # Prerequisites
 Follow the [official instructions to install the ESP-IDF Development Environment.](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/#setting-up-development-environment)
 
+Checkout the appropriate commit:
+ESP-IDF: 977854975
+
 # Usage
 Clone the repo recursively
 ```
@@ -29,3 +32,5 @@ python2, then change the config to reflect this under:
 ```
 SDK tool configuration->Python 2 interpreter->python2
 ```
+To change versions of arduino-esp32, checkout the appropriate commits for the
+submodules in the component folder and the comit for the ESP-IDF.
