@@ -19,7 +19,7 @@ fi
 
 echo "Copying files..."
 # Copy compiled libraries
-find $DIR/build -type d -path ./build/bootloader -prune -o -name *.a -exec cp {} $DIR/sdk/lib/ \;
+find $DIR/build -type d -path $DIR/build/bootloader -prune -o -name *.a -exec cp {} $DIR/sdk/lib/ \;
 find $DIR/components/esp-who/components/esp-face/lib -name *.a -exec cp {} $DIR/sdk/lib/ \;
 find $IDF_PATH/components/esp32 -name *.a -exec cp {} $DIR/sdk/lib/ \;
 find $IDF_PATH/components/bt -name *.a -exec cp {} $DIR/sdk/lib/ \;
@@ -27,7 +27,7 @@ cp $IDF_PATH/components/newlib/lib/libc_nano.a $DIR/sdk/lib/
 cp $IDF_PATH/components/newlib/lib/libc.a $DIR/sdk/lib/
 
 # Copy Linker files
-find $DIR/build -type d -path ./build/bootloader -prune -o -name *.ld -exec cp {} $DIR/sdk/ld/ \;
+find $DIR/build -type d -path $DIR/build/bootloader -prune -o -name *.ld -exec cp {} $DIR/sdk/ld/ \;
 find $IDF_PATH/components/esp32/ld -maxdepth 1 -name *.ld  -exec cp {} $DIR/sdk/ld/ \;
 find $IDF_PATH/components/esp32/ld/wifi_iram_opt/ -maxdepth 1 -name *.ld  -exec cp {} $DIR/sdk/ld/ \;
 
