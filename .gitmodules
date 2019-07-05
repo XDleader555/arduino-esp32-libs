@@ -1,0 +1,6 @@
+[submodule "components/arduino-esp32"]
+	path = components/arduino-esp32
+	url = https://github.com/espressif/arduino-esp32.git
+[submodule "components/esp-who"]
+	path = components/esp-who
+	url = https://github.com/espressif/esp-who.git
