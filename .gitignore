@@ -1,2 +1,4 @@
+arduino-esp32-libs.zip
 sdkconfig.old
 build/
+sdk/
