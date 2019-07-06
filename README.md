@@ -10,7 +10,7 @@ Follow the [official instructions to install the ESP-IDF Development Environment
 Install the appropriate [arduino-esp32 release](https://github.com/espressif/arduino-esp32/releases) (cloned source is v1.0.3-rc1)
 
 Checkout the appropriate commit:
-ESP-IDF: 977854975
+ESP-IDF v3.2.2: [055943e](https://github.com/espressif/esp-idf/releases/tag/v3.2.2)
 
 # Usage
 Clone the repo recursively
